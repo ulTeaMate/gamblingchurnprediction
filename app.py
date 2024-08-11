@@ -6,11 +6,18 @@ from streamlit_echarts import st_echarts
 import streamlit_authenticator as stauth
 import yaml
 from yaml.loader import SafeLoader
+import os
+
+# Get the directory where the script is located
+base_path = os.path.dirname(__file__)
+
+# Construct the full path to the configuration file
+config_path = os.path.join(base_path, 'config.yaml')
 
 # Load configuration from YAML file
-with open(r'C:\Users\Administrator\OneDrive - National College of Ireland\Final Project\Final Project App\config.yaml') as file:
-    config = yaml.load(file, Loader=SafeLoader)
-
+with open(config_path, 'r') as file:
+    config = yaml.load(file, Loader=yaml.SafeLoader)
+    
 # Initialize authenticator using data from the config file
 authenticator = stauth.Authenticate(
     credentials=config['credentials'],
