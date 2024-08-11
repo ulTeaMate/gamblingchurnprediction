@@ -1,0 +1,14 @@
+credentials:
+  usernames:
+    twes:
+      email: tiemew@yahoo.es
+      name: Tieme Wesselink
+      password: $2b$12$nOl5Wc21ByBPnnOCy5w9jOrL8b.nHGhRu8/Dxzbt/86ZP0gJDaYeG # Replace 'abc' with the actual hash
+    dwes:
+      email: ultieme007@gmail.com
+      name: Dante Wesselink
+      password: $2b$12$z4fxSxMGuQZ/brSCbKDsJeb9ZL38sScq8oct../4zOxeUjOQ2/O06 # Replace 'def' with the actual hash
+cookie:
+  expiry_days: 30
+  key: churn_prediction_access
+  name: my_churn_cookie
