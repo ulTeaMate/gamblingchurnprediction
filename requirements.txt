@@ -4,3 +4,4 @@ seaborn==0.13.2  # Change version numbers as needed based on compatibility and a
 joblib==1.4.2  # Change version numbers as needed based on compatibility and availability
 streamlit-authenticator==0.3.3 # Change version numbers as needed based on compatibility and availability
 streamlit-echarts==0.4.0 # Change version numbers as needed based on compatibility and availability
+scikit-learn==1.5.1 # Change version numbers as needed based on compatibility and availability
