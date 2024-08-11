@@ -1,10 +1,6 @@
-altair==5.3.0
-joblib @ file:///home/conda/feedstock_root/build_artifacts/joblib_1714665484399/work
-matplotlib==3.9.1
-pandas==2.2.2
-pywin32==305.1
-scikit-learn @ file:///D:/bld/scikit-learn_1719998202088/work/dist/scikit_learn-1.5.1-cp311-cp311-win_amd64.whl#sha256=f86ffc520b81be9f396b6ff4c1a3790fe6c6b1b698eaaa7a0fdac4b8c49c5b3f
-seaborn==0.13.2
-streamlit==1.37.1
-streamlit-authenticator==0.3.3
-streamlit-echarts==0.4.0
+matplotlib==3.9.1  # Change version numbers as needed based on compatibility and availability
+pandas==2.2.2  # Change version numbers as needed based on compatibility and availability
+seaborn==0.13.2  # Change version numbers as needed based on compatibility and availability
+streamlit==1.37.1  # Change version numbers as needed based on compatibility and availability
+streamlit-authenticator==0.3.3  # Change version numbers as needed based on compatibility and availability
+streamlit-echarts==0.4.0  # Change version numbers as needed based on compatibility and availability
