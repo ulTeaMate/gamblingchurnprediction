@@ -2,3 +2,5 @@ matplotlib==3.9.1  # Change version numbers as needed based on compatibility and
 pandas==2.2.2  # Change version numbers as needed based on compatibility and availability
 seaborn==0.13.2  # Change version numbers as needed based on compatibility and availability
 joblib==1.4.2  # Change version numbers as needed based on compatibility and availability
+streamlit-authenticator==0.3.3 # Change version numbers as needed based on compatibility and availability
+streamlit-echarts==0.4.0 # Change version numbers as needed based on compatibility and availability
